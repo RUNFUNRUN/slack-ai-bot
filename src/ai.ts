@@ -1,6 +1,6 @@
 import { anthropic } from '@ai-sdk/anthropic';
 import { type CoreMessage, generateText } from 'ai';
-import { getCurrentTime } from './tools/getCurrentTime';
+import { getCurrentTime } from './tools/get-current-time';
 
 const system = `あなたはSlack上で動作するAIエージェントです。
 Slackでは言語別のコードブロックをサポートしていません。
